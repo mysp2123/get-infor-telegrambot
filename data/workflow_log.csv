@@ -1,0 +1,35 @@
+timestamp,step,action,status,details,article_count,selected_rank,ai_retries,user_feedback,final_post_id,error_message
+2025-06-30T12:37:30.426157,news_fetch,fetch_articles,success,"Sources: guardian, ap_news, reuters",10,,,,,
+2025-06-30T12:37:30.433655,deduplication_ranking,process_articles,success,"Original: 10, After dedup: 10. Rankings: Rank 1: Former Venezuelan intelligence chief pleads guilty (Score: 0.32); Rank 2: At least 16 people killed and 400 injured in Kenya (Score: 0.30); Rank 3: Trump eyes mineral wealth as Rwanda and DRC sign c (Score: 0.24)",10,,,,,
+2025-06-30 16:31:54,News Fetch,Started
+2025-06-30 16:32:01,News Fetch,Retrieved 0 articles
+2025-06-30 16:32:01,Deduplication,Removed 0 duplicates
+2025-06-30 16:32:01,Ranking,Ranked 0 articles
+2025-06-30 16:40:27,News Fetch,Started
+2025-06-30 16:40:34,News Fetch,Retrieved 0 articles
+2025-06-30 16:40:34,Deduplication,Removed 0 duplicates
+2025-06-30 16:40:34,Ranking,Ranked 0 articles
+2025-06-30 17:04:23,News Fetch,Started
+2025-06-30 17:04:30,News Fetch,Retrieved 0 articles
+2025-06-30 17:04:30,Deduplication,Removed 0 duplicates
+2025-06-30 17:04:30,Ranking,Ranked 0 articles
+2025-06-30 17:06:40,News Fetch,Started
+2025-06-30 17:06:47,News Fetch,Retrieved 0 articles
+2025-06-30 17:06:47,Deduplication,Removed 0 duplicates
+2025-06-30 17:06:47,Ranking,Ranked 0 articles
+2025-06-30 17:09:32,News Fetch,Started
+2025-06-30 17:09:44,News Fetch,Retrieved 0 articles
+2025-06-30 17:09:44,Deduplication,Removed 0 duplicates
+2025-06-30 17:09:44,Ranking,Ranked 0 articles
+2025-06-30 17:12:28,News Fetch,Started
+2025-06-30 17:12:37,News Fetch,Retrieved 0 articles
+2025-06-30 17:12:37,Deduplication,Removed 0 duplicates
+2025-06-30 17:12:37,Ranking,Ranked 0 articles
+2025-06-30 17:21:14,News Fetch,Started
+2025-06-30 17:21:23,News Fetch,Retrieved 0 articles
+2025-06-30 17:21:23,Deduplication,Removed 0 duplicates
+2025-06-30 17:21:23,Ranking,Ranked 0 articles
+2025-06-30 17:28:11,News Fetch,Started
+2025-06-30 17:28:20,News Fetch,Retrieved 0 articles
+2025-06-30 17:28:20,Deduplication,Removed 0 duplicates
+2025-06-30 17:28:20,Ranking,Ranked 0 articles

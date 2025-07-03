@@ -1,0 +1,46 @@
+# Core Dependencies
+python-telegram-bot==20.7
+requests==2.31.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+aiohttp==3.9.1
+lxml==4.9.3
+aiofiles==23.2.1
+Pillow==10.1.0
+
+# AI Services - Gemini instead of OpenAI
+google-generativeai==0.3.2
+
+# Image Generation APIs & Enhancement
+stability-sdk>=0.8.0
+# For Stability AI
+aiohttp[speedups]>=3.9.0
+# For image processing & enhancement
+Pillow>=10.1.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Google Services
+gspread==5.12.0
+google-auth==2.23.4
+
+# Facebook Automation (thay thế cho Facebook SDK)
+selenium==4.15.2
+webdriver-manager==4.0.1
+
+# Market Data & Scheduling
+apscheduler>=3.10.0
+pytz>=2023.3
+yfinance>=0.2.0
+
+# Enhanced News Service Dependencies
+feedparser>=6.0.10
+
+# Web Scraping & Data Processing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests-html>=0.10.0
+
+# Async & Performance
+asyncio>=3.4.3
+aiofiles>=23.2.0

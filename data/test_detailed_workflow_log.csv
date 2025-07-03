@@ -1,0 +1,54 @@
+timestamp,session_id,user_id,step_category,step_action,source,articles_count,article_summaries,relevance_scores,appeal_scores,user_selection_rank,ai_call_timestamp,ai_retries,caption_text,approval_action,content_changes,image_api_timestamp,image_retries,image_url_or_id,image_approval_action,new_image_prompt,facebook_post_id,publish_timestamp,api_response_status,error_message,retry_count,duration_ms,metadata
+2025-07-03T10:27:45.982673,12345_20250703_102745,12345,workflow_start,session_started,,,,,,,,,,,,,,,,,,,,,,,
+2025-07-03T10:27:45.982781,12345_20250703_102745,12345,news_fetch,fetch_started,"The Guardian, Reuters, Bloomberg, VnExpress",,,,,,,,,,,,,,,,,,,,,,"{""sources_list"": [""The Guardian"", ""Reuters"", ""Bloomberg"", ""VnExpress""]}"
+2025-07-03T10:27:46.487934,12345_20250703_102745,12345,news_fetch,fetch_completed,The Guardian,2,"[""Latest market analysis and trends from The Guardian"", ""Latest tech developments reported by The Guardian""]","[0.85, 0.82]","[0.78, 0.75]",,,,,,,,,,,,,,,,,500,
+2025-07-03T10:27:46.993237,12345_20250703_102745,12345,news_fetch,fetch_completed,Reuters,2,"[""Latest market analysis and trends from Reuters"", ""Latest tech developments reported by Reuters""]","[0.87, 0.83]","[0.81, 0.77]",,,,,,,,,,,,,,,,,600,
+2025-07-03T10:27:47.498715,12345_20250703_102745,12345,news_fetch,fetch_completed,Bloomberg,2,"[""Latest market analysis and trends from Bloomberg"", ""Latest tech developments reported by Bloomberg""]","[0.89, 0.84]","[0.8400000000000001, 0.79]",,,,,,,,,,,,,,,,,700,
+2025-07-03T10:27:48.004337,12345_20250703_102745,12345,news_fetch,fetch_completed,VnExpress,2,"[""Latest market analysis and trends from VnExpress"", ""Latest tech developments reported by VnExpress""]","[0.9099999999999999, 0.85]","[0.87, 0.81]",,,,,,,,,,,,,,,,,800,
+2025-07-03T10:27:48.004906,12345_20250703_102745,12345,deduplication_ranking,ranking_completed,,3,"[""Markets reach new highs amid positive economic indicators"", ""New AI model shows unprecedented capabilities"", ""International summit produces new environmental agreements""]","[0.92, 0.89, 0.86]","[0.88, 0.85, 0.82]",,,,,,,,,,,,,,,,,1200,"{""original_count"": 8, ""deduplication_removed"": 5, ""ranking_algorithm"": ""relevance_appeal_combined""}"
+2025-07-03T10:27:48.005258,12345_20250703_102745,12345,user_selection,article_selected,,,,,,1,,,Breaking: Global Market Surge Continues,,,,,,,,,,,,,,"{""selected_article"": {""title"": ""Breaking: Global Market Surge Continues"", ""summary"": ""Markets reach new highs amid positive economic indicators"", ""relevance_score"": 0.92, ""appeal_score"": 0.88, ""rank"": 1}}"
+2025-07-03T10:27:48.005524,12345_20250703_102745,12345,caption_draft,ai_call_started,,,,,,,2025-07-03T10:27:48.005516,0,,,,,,,,,,,,,,,"{""ai_provider"": ""Gemini 1.5 Flash""}"
+2025-07-03T10:27:50.007624,12345_20250703_102745,12345,caption_draft,ai_generation_completed,,,,,,,,0,"🌟 Tin tức nóng: Thị trường toàn cầu tiếp tục tăng trưởng mạnh mẽ!
+
+📈 Các chỉ số chính:
+• S&P 500 tăng 2.3%
+• Dow Jones đạt mức cao kỷ lục
+• Khối lượng giao dịch tăng 45%
+
+💡 Các chuyên gia nhận định đây là tín hiệu tích cực cho nền kinh tế, với các yếu tố:
+✅ Lạm phát được kiểm soát
+✅ Tăng trưởng việc làm ổn định
+✅ Niềm tin tiêu dùng cải thiện
+
+🔍 Đây có thể là cơ hội đầu tư tốt? Các bạn nghĩ sao?
+
+#ThịTrường #ĐầuTư #KinhTế #TinTức #PioneerX",,,,,,,,,,,,,2000,
+2025-07-03T10:27:50.008203,12345_20250703_102745,12345,caption_approval,approve,,,,,,,,,"🌟 Tin tức nóng: Thị trường toàn cầu tiếp tục tăng trưởng mạnh mẽ!
+
+📈 Các chỉ số chính:
+• S&P 500 tăng 2.3%
+• Dow Jones đạt mức cao kỷ lục
+• Khối lượng giao dịch tăng 45%
+
+💡 Các chuyên gia nhận định đây là tín hiệu tích cực cho nền kinh tế, với các yếu tố:
+✅ Lạm phát được kiểm soát
+✅ Tăng trưởng việc làm ổn định
+✅ Niềm tin tiêu dùng cải thiện
+
+🔍 Đây có thể là cơ hội đầu tư tốt? Các bạn nghĩ sao?
+
+#ThịTrường #ĐầuTư #KinhTế #TinTức #PioneerX",approve,,,,,,,,,,,,,
+2025-07-03T10:27:50.008681,12345_20250703_102745,12345,image_generation,api_call_started,,,,,,,,,,,,2025-07-03T10:27:50.008668,0,,,"Professional financial news illustration, stock market charts trending upward, modern business graphics, blue and green color scheme, 16:9 aspect ratio, high quality",,,,,,,"{""image_provider"": ""Stability AI""}"
+2025-07-03T10:27:53.013934,12345_20250703_102745,12345,image_generation,generation_completed,,,,,,,,,,,,,1,generated_images/market_surge_20250703_102045.jpg,,,,,,,,3000,
+2025-07-03T10:27:53.015026,12345_20250703_102745,12345,image_approval,approve,,,,,,,,,,,,,,,approve,,,,,,,,
+2025-07-03T10:27:54.018386,12345_20250703_102745,12345,publishing,publish_completed,,,,,,,,,,,,,,,,,123456789_987654321,2025-07-03T10:27:54.018356,success - published,,,1000,
+2025-07-03T10:27:54.018867,12345_20250703_102745,12345,workflow_complete,session_completed,,,,,,,,,,,,,,,,,,,success,,,10000,"{""session_id"": ""12345_20250703_102745""}"
+2025-07-03T10:27:54.019313,54321_20250703_102754,54321,workflow_start,session_started,,,,,,,,,,,,,,,,,,,,,,,
+2025-07-03T10:27:54.019467,54321_20250703_102754,54321,news_fetch,error_occurred,,,,,,,,,,,,,,,,,,,,API rate limit exceeded for Reuters,1,,
+2025-07-03T10:27:54.019616,54321_20250703_102754,54321,caption_draft,ai_call_started,,,,,,,2025-07-03T10:27:54.019609,0,,,,,,,,,,,,,,,"{""ai_provider"": ""Gemini 1.5 Flash""}"
+2025-07-03T10:27:54.019751,54321_20250703_102754,54321,caption_draft,error_occurred,,,,,,,,,,,,,,,,,,,,AI service timeout - retrying with shorter prompt,1,,
+2025-07-03T10:27:54.019884,54321_20250703_102754,54321,caption_draft,ai_generation_completed,,,,,,,,1,Shortened caption after retry,,,,,,,,,,,,,5000,
+2025-07-03T10:27:54.020022,54321_20250703_102754,54321,image_generation,api_call_started,,,,,,,,,,,,2025-07-03T10:27:54.020016,0,,,complex prompt,,,,,,,"{""image_provider"": ""Stability AI""}"
+2025-07-03T10:27:54.020161,54321_20250703_102754,54321,image_generation,error_occurred,,,,,,,,,,,,,,,,,,,,Image generation failed - content policy violation,2,,
+2025-07-03T10:27:54.020288,54321_20250703_102754,54321,publishing,error_occurred,,,,,,,,,,,,,,,,,,,,Facebook API authentication error,0,,
+2025-07-03T10:27:54.020410,54321_20250703_102754,54321,workflow_complete,session_completed,,,,,,,,,,,,,,,,,,,failed - publishing error,,,8000,"{""session_id"": ""54321_20250703_102754""}"
